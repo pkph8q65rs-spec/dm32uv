@@ -25,7 +25,7 @@ args = ap.parse_args()
 
 def log(msg, always=False):
     if always or not args.quiet:
-        print(msg, flush=True)
+        print(msg, flush=always)
 
 
 def find_real():
@@ -46,7 +46,7 @@ def read_chunk(src):
     return b + src.read(n) if n else b
 
 
-virt = serial.Serial(args.virtual, args.baud, timeout=0.02)
+virt = serial.Serial(args.virtual, args.baud, timeout=0.02, write_timeout=1.0)
 last_cps_tx = [0.0]
 log(f"Bridge starting (virtual={args.virtual}, real={args.real or 'auto:' + args.match})", True)
 
@@ -57,7 +57,7 @@ while True:
         time.sleep(2)
         continue
     try:
-        real = serial.Serial(port, args.baud, timeout=0.02)
+        real = serial.Serial(port, args.baud, timeout=0.02, write_timeout=1.0)
         real.rts = True
         real.dtr = False
     except Exception as e:
@@ -75,7 +75,7 @@ while True:
             try:
                 data = read_chunk(virt)
                 if data:
-                    last_cps_tx[0] = time.time()
+                    last_cps_tx[0] = time.monotonic()
                     real.write(data)
                     log(f"[CPS->radio] {len(data)}")
             except Exception as e:
@@ -87,7 +87,7 @@ while True:
             try:
                 data = read_chunk(real)
                 if data:
-                    if time.time() - last_cps_tx[0] > args.unsolicited:
+                    if time.monotonic() - last_cps_tx[0] > args.unsolicited:
                         log(f"[radio->CPS] dropped {len(data)} unsolicited")
                         continue
                     virt.write(data)
