@@ -1,0 +1,2 @@
+No.,Name,Rx Frequency(MHz),Tx Frequency(MHz),Channel Type,TX Power,Band Width,Color Code,Time Slot,Scan List,Transmit Contact,Receive Group List,Repeater Slot,DMR ID
+1,INTL EMERG,121.5000,121.5000,Analog,High,12.5K,0,1,None,None,None,1,0
