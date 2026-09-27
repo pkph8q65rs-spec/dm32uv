@@ -1,0 +1,43 @@
+No.,Name,Rx Frequency(MHz),Tx Frequency(MHz),Channel Type,TX Power,Band Width,Color Code,Time Slot,Scan List,Transmit Contact,Receive Group List,Repeater Slot,DMR ID
+1,INTL EMERG,121.5000,121.5000,Analog,High,12.5K,0,1,None,None,None,1,0
+2,KC APCH/DEP,135.5750,135.5750,Analog,High,12.5K,0,1,None,None,None,1,0
+3,KC ATC GND,119.1250,119.1250,Analog,High,12.5K,0,1,None,None,None,1,0
+4,KC ATIS,118.7250,118.7250,Analog,High,12.5K,0,1,None,None,None,1,0
+5,MIL TWR CMN,126.2000,126.2000,Analog,High,12.5K,0,1,None,None,None,1,0
+6,SEDALIA DMR,444.1500,444.1500,Digital,High,12.5K,7,1,None,SEDALIA,None,1,3100001
+7,COLE CAMP,145.1100,145.1100,Analog,High,12.5K,0,1,None,None,None,1,0
+8,MO STATE DMR,443.5000,443.5000,Digital,High,12.5K,1,1,None,MO-STATE,None,1,3100001
+9,NAT EMERG DMR,446.0000,446.0000,Digital,High,12.5K,9,1,None,DMR9200,None,1,3100001
+10,MO FIRE MA,154.2800,154.2800,Analog,High,12.5K,0,1,None,None,None,1,0
+11,PETTIS FD,154.3100,154.3100,Analog,High,12.5K,0,1,None,None,None,1,0
+12,FIRE CMD 1,154.2650,154.2650,Analog,High,12.5K,0,1,None,None,None,1,0
+13,FIRE CMD 2,154.2950,154.2950,Analog,High,12.5K,0,1,None,None,None,1,0
+14,FIRE CMD 3,154.2725,154.2725,Analog,High,12.5K,0,1,None,None,None,1,0
+15,FIRE CMD 4,154.2875,154.2875,Analog,High,12.5K,0,1,None,None,None,1,0
+16,FIRE CMD 5,154.3025,154.3025,Analog,High,12.5K,0,1,None,None,None,1,0
+17,NOAA WX1,162.5500,162.5500,Analog,High,12.5K,0,1,None,None,None,1,0
+18,NOAA WX2,162.5000,162.5000,Analog,High,12.5K,0,1,None,None,None,1,0
+19,NOAA WX3,162.4750,162.4750,Analog,High,12.5K,0,1,None,None,None,1,0
+20,GMRS 01,462.5625,462.5625,Analog,High,12.5K,0,1,None,None,None,1,0
+21,GMRS 02,462.5875,462.5875,Analog,High,12.5K,0,1,None,None,None,1,0
+22,GMRS 03,462.6125,462.6125,Analog,High,12.5K,0,1,None,None,None,1,0
+23,GMRS 04,462.6375,462.6375,Analog,High,12.5K,0,1,None,None,None,1,0
+24,GMRS 05,462.6625,462.6625,Analog,High,12.5K,0,1,None,None,None,1,0
+25,GMRS 06,462.6875,462.6875,Analog,High,12.5K,0,1,None,None,None,1,0
+26,GMRS 07,462.7125,462.7125,Analog,High,12.5K,0,1,None,None,None,1,0
+27,GMRS 15,462.5500,462.5500,Analog,High,25K,0,1,None,None,None,1,0
+28,GMRS 16,462.5750,462.5750,Analog,High,25K,0,1,None,None,None,1,0
+29,GMRS 17,462.6000,462.6000,Analog,High,25K,0,1,None,None,None,1,0
+30,GMRS 18,462.6250,462.6250,Analog,High,25K,0,1,None,None,None,1,0
+31,GMRS 19,462.6500,462.6500,Analog,High,25K,0,1,None,None,None,1,0
+32,GMRS 20,462.6750,462.6750,Analog,High,25K,0,1,None,None,None,1,0
+33,GMRS 21,462.7000,462.7000,Analog,High,25K,0,1,None,None,None,1,0
+34,GMRS 22,462.7250,462.7250,Analog,High,25K,0,1,None,None,None,1,0
+35,GMRS RPT15,462.5500,467.5500,Analog,High,25K,0,1,None,None,None,1,0
+36,GMRS RPT16,462.5750,467.5750,Analog,High,25K,0,1,None,None,None,1,0
+37,GMRS RPT17,462.6000,467.6000,Analog,High,25K,0,1,None,None,None,1,0
+38,GMRS RPT18,462.6250,467.6250,Analog,High,25K,0,1,None,None,None,1,0
+39,GMRS RPT19,462.6500,467.6500,Analog,High,25K,0,1,None,None,None,1,0
+40,GMRS RPT20,462.6750,467.6750,Analog,High,25K,0,1,None,None,None,1,0
+41,GMRS RPT21,462.7000,467.7000,Analog,High,25K,0,1,None,None,None,1,0
+42,GMRS RPT22,462.7250,467.7250,Analog,High,25K,0,1,None,None,None,1,0
